@@ -10,7 +10,7 @@ LABEL "com.github.actions.icon"="message-square"
 LABEL "com.github.actions.color"="gray-dark"
 
 # Install curl
-RUN RUN apk add --no-cache curl
+RUN apk add --no-cache curl
 
 # Add the entry point
 ADD entrypoint.sh /entrypoint.sh
